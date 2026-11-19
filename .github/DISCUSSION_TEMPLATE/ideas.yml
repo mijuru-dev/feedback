@@ -7,6 +7,7 @@ body:
         Thanks for sharing an idea! Please write in **English** — a machine translation from your language is perfectly fine.
         Search first: if someone already suggested it, add a 👍 to their post — ideas with the most votes get planned first.
         Something is broken? Please [report a problem](https://github.com/mijuru-dev) in the product's repository instead.
+        Echo Page: describe the idea in general terms — please don't paste text from your diary.
   - type: dropdown
     id: product
     attributes:
@@ -16,6 +17,7 @@ body:
         - Browser extension (Mijuru Wallpapers)
         - Desktop app (Linux)
         - Mobile app (Android / iOS)
+        - Echo Page (diary: website, web diary, Chrome extension)
         - Several / all
     validations:
       required: true
