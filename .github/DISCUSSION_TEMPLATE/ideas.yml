@@ -8,6 +8,7 @@ body:
         Search first: if someone already suggested it, add a 👍 to their post — ideas with the most votes get planned first.
         Something is broken? Please [report a problem](https://github.com/mijuru-dev) in the product's repository instead.
         Echo Page: describe the idea in general terms — please don't paste text from your diary.
+        Dear Tab: please don't attach your personal photos — describe the idea in words or use a sample picture.
   - type: dropdown
     id: product
     attributes:
@@ -18,6 +19,7 @@ body:
         - Desktop app (Linux)
         - Mobile app (Android / iOS)
         - Echo Page (diary: website, web diary, Chrome extension)
+        - Dear Tab (family photos on new tab: Chrome extension, website)
         - Several / all
     validations:
       required: true

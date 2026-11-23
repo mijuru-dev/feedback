@@ -15,6 +15,7 @@ body:
         - Desktop app (Linux)
         - Mobile app (Android / iOS)
         - Echo Page (diary: website, web diary, Chrome extension)
+        - Dear Tab (family photos on new tab: Chrome extension, website)
     validations:
       required: true
   - type: textarea
@@ -27,4 +28,4 @@ body:
     id: env
     attributes:
       label: Version and system (if relevant)
-      placeholder: e.g. extension 1.4.0 on Chrome 131 / Ubuntu 24.04 GNOME / Android 14 / Echo Page web diary in Safari 18
+      placeholder: e.g. extension 1.4.0 on Chrome 131 / Ubuntu 24.04 GNOME / Android 14 / Echo Page web diary in Safari 18 / Dear Tab 1.0.0 on Chrome 142
